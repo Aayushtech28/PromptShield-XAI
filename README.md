@@ -230,7 +230,7 @@ Future iterations will focus on using **Continual Learning** and **Agentic RAG**
 
 ---
 
-## 👤 Author
+## 👤 Author: Aayush Kulkarni
 
 Built for **AI Security Research** · PromptShield-XAI v1.0
 
