@@ -10,7 +10,7 @@ import json
 import pandas as pd
 
 # FastAPI Backend URL
-API_URL = "http://localhost:8000/analyze"
+API_URL = "https://promptshield-xai.onrender.com/analyze"
 
 st.set_page_config(page_title="PromptShield-XAI", page_icon="🛡️", layout="wide")
 
