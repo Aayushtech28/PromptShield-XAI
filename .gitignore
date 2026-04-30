@@ -1,0 +1,17 @@
+# Python 
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Results & Local Data (Optional)
+# If you want to keep your results folder clean on GitHub
+# but keep the benchmark images, don't ignore results/
