@@ -20,6 +20,14 @@ This "Jekyll-and-Hyde" prompt attempts to hide a jailbreak and NSFW request behi
 
 > *The Streamlit UI showing real-time threat analysis, token-level SHAP explanations, and risk scoring for a submitted prompt.*
 
+## 🌐 Deployment
+The framework is split into a decoupled architecture for scalability:
+* **Frontend:** Hosted on Streamlit Community Cloud.
+* **Backend:** FastAPI engine hosted on Render (Python 3.11)
+Experience the detection engine in real-time at the **[PromptShield-XAI Interactive Sandbox](https://promptshield-xai.streamlit.app/)**.
+*Note: As this is hosted on a free tier, the backend may require ~50 seconds to "spin up" on the first request.*
+
+
 ---
 
 ## 🔍 Problem Statement
