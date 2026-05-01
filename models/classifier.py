@@ -51,7 +51,7 @@ MALICIOUS_PATTERNS: list = [
     (r"(unrestricted|unfiltered|uncensored|jailbroken)\s+(ai|model|assistant|bot)", 0.93),
     (r"without\s+(restrictions?|guardrails?)", 0.95),
     (r"no\s+(restrictions?|guardrails?|filters?|limits?)", 0.87),
-    (r"bypass\s+(your\s+)?(safety|ethical|content)\s*(filters?|measures?|guidelines?)", 0.91),
+    (r"bypass\s+(all\s+)?(your\s+)?(safety|ethical|content)\s*(filters?|measures?|guidelines?)", 0.98),
     (r"(jailbreak|jail\s*break)", 0.93),
     (r"(enter|activate|act\s+as)\s+(unrestricted|developer|god|dan)\s+mode", 0.94),
     (r"you\s+are\s+now\s+an\s+(ai|assistant)\s+without", 0.96),
